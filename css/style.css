@@ -1,3 +1,42 @@
-.section-two {
+body {
     display: flex;
+    flex-direction: column;
+}
+
+.section-one,
+.header,
+.footer {
+    background-color: #1f2937;
+    display: flex;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text,
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link {
+    
+}
+
+.section-one {
+    
+}
+.text-and-button {
+    flex-direction: row;
+    
+
 }
