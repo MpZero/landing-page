@@ -1,13 +1,18 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .section-one,
 .header,
 .footer {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     background-color: #1f2937;
+    padding: 1em 40px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -23,20 +28,30 @@ h1 {
     text-decoration: none;
 }
 
+.header {
+    justify-content: space-between;
+}
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-left: 100px;
 }
 
-.header-link {
-    
+.header-links {
+    justify-content: flex-end;
 }
 
-.section-one {
-    
-}
 .text-and-button {
-    flex-direction: row;
-    
+    padding: 12px 100px;
+}
 
+.section-one-image {
+    display: flex;
+    height:  110px;
+    width: 500px;
+    padding: 20px 30px;
+    background-color: gray;
+    align-items: center;
+    justify-content: center; 
 }
